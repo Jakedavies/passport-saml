@@ -9,11 +9,7 @@
     "shibboleth"
   ],
   "description": "SAML 2.0 authentication strategy for Passport",
-  "author": {
-    "name": "Henri Bergius",
-    "email": "henri.bergius@iki.fi",
-    "url": "http://bergie.iki.fi"
-  },
+  "author": "Henri Bergius <henri.bergius@iki.fi> (http://bergie.iki.fi)",
   "contributors": [
     "Michael Bosworth",
     "Herbert Vojčík",
@@ -23,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bergie/passport-saml.git"
+    "url": "git+https://github.com/jamesjnadeau/passport-saml.git"
   },
   "main": "./lib/passport-saml",
   "dependencies": {
@@ -51,6 +47,15 @@
   },
   "scripts": {
     "test": "mocha",
-    "jshint": "./node_modules/.bin/jshint lib"
+    "jshint": "jshint lib"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesjnadeau/passport-saml/issues"
+  },
+  "homepage": "https://github.com/jamesjnadeau/passport-saml#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
